@@ -8,8 +8,6 @@ Pod::Spec.new do |s|
   s.source   = { :git => 'https://github.com/m1entus/MZFormSheetPresentationController.git', :tag => s.version.to_s }
   s.requires_arc = true
 
-  s.dependency 'MZAppearance'
-
   s.source_files = 'MZFormSheetPresentationController/*.{h,m}'
 
   s.ios.deployment_target = "8.0"
